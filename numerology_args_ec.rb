@@ -1,8 +1,12 @@
-# Numerology App
-# Calling methods inside other methods
-# In this version, the original def get_birth_path_num(birthdate) method was separated into two separate method. The first method tabulates the birthdate, and the second reduces the number to a single digit. 
+# Numerology App Calling methods inside other methods 
 
-# Next, we call those two methods from within the new def get_birth_path_num(birthdate) method. 
+# In this version,
+# the original def get_birth_path_num(birthdate) method was separated
+# into two separate method. The first method tabulates the birthdate,
+# and the second reduces the number to a single digit.
+
+# Next, we call those two methods from within the new def
+# get_birth_path_num(birthdate) method.
 
 def add_birthdate(birthdate)
     birthdate[0].to_i + birthdate[1].to_i + birthdate[2].to_i + birthdate[3].to_i + birthdate[4].to_i + birthdate[5].to_i + birthdate[6].to_i + birthdate[7].to_i
