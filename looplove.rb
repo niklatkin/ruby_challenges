@@ -16,7 +16,7 @@ while true
     elsif (answer != "yes" && answer != "no")
         puts "Maybe a spank will help you decide?"
         answer = gets.chomp.downcase
-        if (answer == "stop")
+        if (answer == "bye")
         puts "OK, we can play later. I love you."
         break
         end
