@@ -1,6 +1,6 @@
 # Loop of Love
 
-# This ruby script runs a slightly naughty while loop. To break out of the loop, enter stop. 
+# This ruby script runs a slightly naughty while loop. To break out of the loop, enter bye. 
 
 puts "Have you been naughty?"
 answer = gets.chomp.downcase
