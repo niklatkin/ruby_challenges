@@ -17,7 +17,7 @@ while true
         puts "Maybe a spank will help you decide?"
         answer = gets.chomp.downcase
         if (answer == "stop")
-        puts "OK, come back later. I love you."
+        puts "OK, we can play later. I love you."
         break
         end
     end
