@@ -36,3 +36,4 @@ my_bike.set_name = 'Betty Foy'
 my_bike.set_company = 'Rivendell'
 my_bike.set_type = 'mixte'
 puts my_bike.about_bike
+puts my_bike.inspect
