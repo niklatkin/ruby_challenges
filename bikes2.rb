@@ -25,18 +25,14 @@ class Vehicle
 end
 
 class Bike < Vehicle
-    def set_seat_height(seat_height)
-        @height=seat_height
-    end
-
-    def get_seat_height
-        return @height
+    def yawp 
+        return "wheeeeeee"
     end
 end
 
 class Car < Vehicle
-    def set_top_speed(top_speed)
-        @speed=top_speed
+    def grump
+        return "arrrrgh"
     end
 
     def get_top_speed
@@ -44,12 +40,19 @@ class Car < Vehicle
     end
 end
 
-my_bike = Vehicle.new
+my_bike = Bike.new
 my_bike.set_name='Betty Foy'
+my_bike.set_company='Rivendell'
 bikename = my_bike.get_name
+bikecomp = my_bike.get_company
 
 my_car = Car.new
-my_car.set_name='Smudge'
+my_car.set_name ="Focus"
+my_car.set_company = "Ford"
 carname = my_car.get_name
+carcomp = my_car.get_company
 
-puts "My #{bikename} has a seat height of #{seat}"
+puts "When I drive my #{carcomp} #{carname}, I say #{my_car.grump}. When I ride my #{bikecomp} #{bikename}, I say #{my_bike.yawp}."
+
+puts my_car.inspect
+puts my_bike.inspect
