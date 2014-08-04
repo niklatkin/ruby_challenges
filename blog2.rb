@@ -1,7 +1,7 @@
 class Blog
     attr_accessor :title, :all_blog_posts, :total_blog_posts
 
-    def initalize
+    def initialize
         @created_at = Time.now
         puts "Name your blog:"
         @title = gets.chomp
