@@ -2,7 +2,7 @@
 
 # In this version,
 # the original def get_birth_path_num(birthdate) method was separated
-# into two separate method. The first method tabulates the birthdate,
+# into two separate methods. The first method tabulates the birthdate,
 # and the second reduces the number to a single digit.
 
 # Next, we call those two methods from within the new def
